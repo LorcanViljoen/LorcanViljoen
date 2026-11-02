@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Uni-verse | The campus party board game</title>
+    <meta
+      name="description"
+      content="Explore the Uni-verse campus party board game and meet the six people who made it."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header>
+      <div class="container nav">
+        <a class="wordmark" href="index.html">Uni-verse</a>
+        <nav aria-label="Main navigation">
+          <a href="index.html#game">The game</a
+          ><a href="index.html#rooms">The rooms</a
+          ><a href="index.html#box">In the box</a
+          ><a href="index.html#crew">The crew</a>
+        </nav>
+        <details class="mobile-menu">
+          <summary class="button">Menu</summary>
+          <nav aria-label="Mobile navigation">
+            <a href="index.html#game">The game</a
+            ><a href="index.html#rooms">The rooms</a
+            ><a href="index.html#box">In the box</a
+            ><a href="index.html#crew">The crew</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero dots">
+        <div class="container split">
+          <div>
+            <div class="title-slab">
+              <span class="sticker">Group 3</span>
+              <h1>Uni-<br />verse</h1>
+              <svg
+                class="burst slab-burst"
+                viewBox="-50 -50 100 100"
+                aria-hidden="true"
+              >
+                <g fill="currentColor">
+                  <rect
+                    x="-4.5"
+                    y="-50"
+                    width="9"
+                    height="100"
+                    transform="rotate(0)"
+                  />
+                  <rect
+                    x="-4.5"
+                    y="-50"
+                    width="9"
+                    height="100"
+                    transform="rotate(45)"
+                  />
+                  <rect
+                    x="-4.5"
+                    y="-50"
+                    width="9"
+                    height="100"
+                    transform="rotate(90)"
+                  />
+                  <rect
+                    x="-4.5"
+                    y="-50"
+                    width="9"
+                    height="100"
+                    transform="rotate(135)"
+                  />
+                </g>
+              </svg>
+            </div>
+            <p class="lead">Campus chaos. Designed to play.</p>
+            <p>
+              The campus party board game. Four rooms, up to 6 players, about 60
+              minutes, and a lot to discover about your friends.
+            </p>
+            <div class="buttons">
+              <a class="button" href="#crew">Meet the crew</a
+              ><a class="button secondary" href="#rooms">Tour the rooms</a>
+            </div>
+          </div>
+          <div class="hero-board panel">
+            <img
+              class=""
+              src="assets/board-full-campus.webp"
+              alt="The Uni-verse campus board: the Ick Room, Gossip Room, Gym and Music Room on a map of paths, lawns and trees."
+              width="1200"
+              height="1200"
+              srcset="
+                assets/board-full-campus-1200.webp 1200w,
+                assets/board-full-campus.webp      2400w
+              "
+              sizes="(min-width:1024px) 600px, 92vw"
+              fetchpriority="high"
+              decoding="async"
+            /><a class="room-pill pill-ick" href="#room-ick">Ick Room</a
+            ><a class="room-pill pill-gossip" href="#room-gossip">Gossip Room</a
+            ><a class="room-pill pill-gym" href="#room-gym">The Gym</a
+            ><a class="room-pill pill-music" href="#room-music">Music Room</a>
+          </div>
+        </div>
+        <svg
+          class="burst hero-pink"
+          viewBox="-50 -50 100 100"
+          aria-hidden="true"
+        >
+          <g fill="currentColor">
+            <rect
+              x="-4.5"
+              y="-50"
+              width="9"
+              height="100"
+              transform="rotate(0)"
+            />
+            <rect
+              x="-4.5"
+              y="-50"
+              width="9"
+              height="100"
+              transform="rotate(45)"
+            />
+            <rect
+              x="-4.5"
+              y="-50"
+              width="9"
+              height="100"
+              transform="rotate(90)"
+            />
+            <rect
+              x="-4.5"
+              y="-50"
+              width="9"
+              height="100"
+              transform="rotate(135)"
+            />
+          </g>
+        </svg>
+      </section>
+      <section id="game" class="game band">
+        <div class="container">
+          <h2 class="ring">Game overview</h2>
+          <p class="lead">What you need to know before you roll.</p>
+          <div class="facts">
+            <div class="fact">
+              <span class="fact-label">Who it’s for</span>
+              <h3>University students</h3>
+              <p>Ages 18 and up.</p>
+            </div>
+            <div class="fact">
+              <span class="fact-label">Players</span>
+              <h3>Up to 6</h3>
+              <p>Everyone moves through all four rooms.</p>
+            </div>
+            <div class="fact">
+              <span class="fact-label">Time</span>
+              <h3>About 60 min</h3>
+              <p>One full game across the whole campus map.</p>
+            </div>
+            <div class="fact">
+              <span class="fact-label">The point</span>
+              <h3>Have fun</h3>
+              <p>And get to know your friends better.</p>
+            </div>
+          </div>
+          <div class="who">
+            <div class="bubble">
+              <h3>Who starts?</h3>
+              <p>
+                At the start of each mini game, everyone rolls two dice. Highest
+                roll starts and play goes clockwise. Tie for highest? Those
+                players roll again.
+              </p>
+            </div>
+            <img
+              class=""
+              src="assets/dice.png"
+              alt="dice"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="rooms" class="rooms band">
+        <div class="container">
+          <h2>The four rooms</h2>
+          <p class="lead">
+            Each room is its own mini game, set in a real corner of campus.
+          </p>
+          <div class="room-grid">
+            <article id="room-ick" class="room room-ick">
+              <div class="room-content">
+                <img
+                  class=""
+                  src="assets/room-ick.webp"
+                  alt="The Ick Room: a purple figure-eight track with lips, a couch and a megaphone."
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="room-caption">
+                  <h3>Ick Room</h3>
+                  <button
+                    type="button"
+                    class="button secondary small"
+                    popovertarget="rules-ick"
+                  >
+                    How it plays
+                  </button>
+                </div>
+                <p class="bubble room-bubble">Drama & theatrics.</p>
+              </div>
+            </article>
+            <article id="room-gossip" class="room room-gossip">
+              <div class="room-content">
+                <img
+                  class=""
+                  src="assets/room-gossip.webp"
+                  alt="The Gossip Room: a pink and plum lecture hall with player seats and a whiteboard."
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="room-caption">
+                  <h3>Gossip Room</h3>
+                  <button
+                    type="button"
+                    class="button secondary small"
+                    popovertarget="rules-gossip"
+                  >
+                    How it plays
+                  </button>
+                </div>
+                <p class="bubble room-bubble">Communication & giggles.</p>
+              </div>
+            </article>
+            <article id="room-gym" class="room room-gym">
+              <div class="room-content">
+                <img
+                  class=""
+                  src="assets/room-gym.webp"
+                  alt="The Gym: a navy track with hand-lettered fitness challenge tiles."
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="room-caption">
+                  <h3>The Gym</h3>
+                  <button
+                    type="button"
+                    class="button secondary small"
+                    popovertarget="rules-gym"
+                  >
+                    How it plays
+                  </button>
+                </div>
+                <p class="bubble room-bubble">
+                  To burn off one too many campus donuts.
+                </p>
+              </div>
+            </article>
+            <article id="room-music" class="room room-music">
+              <div class="room-content">
+                <img
+                  class=""
+                  src="assets/music-board-final.webp"
+                  alt="Music Room board with a curved numbered track and pink card area."
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="room-caption">
+                  <h3>Music Room</h3>
+                  <button
+                    type="button"
+                    class="button secondary small"
+                    popovertarget="rules-music"
+                  >
+                    How it plays
+                  </button>
+                </div>
+                <p class="bubble room-bubble">
+                  Do you really know the words to that song?
+                </p>
+              </div>
+            </article>
+          </div>
+          <p>
+            The board is inspired by real spots at the University of Pretoria:
+            the Drama building, the Piazza, and the sports centre.
+          </p>
+          <section
+            id="rules-ick"
+            class="rules"
+            popover
+            role="dialog"
+            aria-labelledby="rules-title-ick"
+            style="--room: var(--ick)"
+          >
+            <button
+              type="button"
+              class="button secondary"
+              popovertarget="rules-ick"
+              popovertargetaction="hide"
+              autofocus
+            >
+              Close
+            </button>
+            <h3 id="rules-title-ick">Ick Room</h3>
+            <p>
+              Draw an Ick card and act it out without words before the 30-second
+              timer runs out. A correct guess moves both the actor and guesser
+              three spaces forward. If nobody guesses correctly, the actor moves
+              one space back. The room ends when the first player reaches the
+              finish; everyone records a grade based on their position.
+            </p>
+          </section>
+          <section
+            id="rules-gossip"
+            class="rules"
+            popover
+            role="dialog"
+            aria-labelledby="rules-title-gossip"
+            style="--room: var(--gossip)"
+          >
+            <button
+              type="button"
+              class="button secondary"
+              popovertarget="rules-gossip"
+              popovertargetaction="hide"
+              autofocus
+            >
+              Close
+            </button>
+            <h3 id="rules-title-gossip">Gossip Room</h3>
+            <p>
+              The judge reads a fill-in-the-blank gossip prompt. Everyone else
+              submits an amplification card face down. The judge shuffles and
+              reads the combinations, then chooses a favourite. That player
+              earns the card’s scandal points. Refill your hand and rotate the
+              judge until everyone has had a turn. The highest total score wins.
+            </p>
+          </section>
+          <section
+            id="rules-gym"
+            class="rules"
+            popover
+            role="dialog"
+            aria-labelledby="rules-title-gym"
+            style="--room: var(--gym)"
+          >
+            <button
+              type="button"
+              class="button secondary"
+              popovertarget="rules-gym"
+              popovertargetaction="hide"
+              autofocus
+            >
+              Close
+            </button>
+            <h3 id="rules-title-gym">The Gym</h3>
+            <p>
+              Roll the dice and follow the fitness journey, gaining or losing
+              strength in arms, legs, abs and full body. Use those scores to
+              build your Gym Bro and its balancing platform. Then roll for
+              weight size: even means a big shape, odd means a little one. Draw
+              a weight without looking and stack it on your platform. Drop a
+              weight or topple your Gym Bro and you are out. Last bro standing
+              wins.
+            </p>
+          </section>
+          <section
+            id="rules-music"
+            class="rules"
+            popover
+            role="dialog"
+            aria-labelledby="rules-title-music"
+            style="--room: var(--music)"
+          >
+            <button
+              type="button"
+              class="button secondary"
+              popovertarget="rules-music"
+              popovertargetaction="hide"
+              autofocus
+            >
+              Close
+            </button>
+            <h3 id="rules-title-music">Music Room</h3>
+            <p>
+              Flip the 30-second timer and sing lyrics containing the words on
+              your card, or finish the lyrics it starts. Move forward according
+              to the lyrics you complete. If you get stuck, draw one extra card:
+              a maximum of two cards per turn. Discard used cards and reshuffle
+              when the deck runs out. Keep playing until the first three players
+              reach the finish.
+            </p>
+          </section>
+        </div>
+      </section>
+      <section class="report band">
+        <div class="container split">
+          <div>
+            <h2>Report cards</h2>
+            <p class="lead">Every room ends with a grade.</p>
+            <p>
+              Like the academic records we get in varsity, each player fills in
+              their student info and records a grade for their finishing
+              position in every room. Add up the points, work out your
+              percentage, and the highest average wins the game.
+            </p>
+            <p>
+              First place earns an A (25 points), second a B (18), third a C
+              (10), and fourth or lower an F (5). Four rooms make a total out of
+              100.
+            </p>
+            <p class="caption callout">Highest average wins.</p>
+          </div>
+          <div class="report-art panel">
+            <a
+              class="zoom"
+              href="assets/report-card-final.webp"
+              aria-label="Enlarge Official Uni-verse report card with student details, four subjects and grade allocation."
+            >
+              <img
+                class=""
+                src="assets/report-card-final.webp"
+                alt="Official Uni-verse report card with student details, four subjects and grade allocation."
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="box" class="box band">
+        <div class="container">
+          <h2>In the box</h2>
+          <p class="lead">
+            A university building meets the fun design of a comic book.
+          </p>
+          <div class="packaging-row">
+            <figure class="panel packaging-feature">
+              <a
+                class="zoom"
+                href="assets/packaging-final.webp"
+                aria-label="Enlarge Uni-verse packaging artwork with a campus building beneath a teal sky and orange title"
+              >
+                <img
+                  class=""
+                  src="assets/packaging-final.webp"
+                  alt="Uni-verse packaging artwork with a campus building beneath a teal sky and orange title"
+                  loading="lazy"
+                  decoding="async"
+                /><span class="zoom-plus" aria-hidden="true">+</span>
+              </a>
+              <figcaption class="caption">
+                Packaging illustration by
+                <a href="members/alyssa.html">Alyssa</a>
+              </figcaption>
+            </figure>
+            <p>
+              The box art turns a real campus building into a comic-book scene.
+              Inside: the board, custom pouches, every deck of cards, the
+              30-second timers and the rulebook.
+            </p>
+          </div>
+          <div class="card-fan">
+            <a
+              class="zoom fan-card fan-0"
+              href="assets/gossip-prompt-card-front.webp"
+              aria-label="Enlarge gossip prompt card front.webp"
+            >
+              <img
+                class=""
+                src="assets/gossip-prompt-card-front.webp"
+                alt="gossip prompt card front"
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span> </a
+            ><a
+              class="zoom fan-card fan-1"
+              href="assets/gossip-amplification-card-front.webp"
+              aria-label="Enlarge gossip amplification card front.webp"
+            >
+              <img
+                class=""
+                src="assets/gossip-amplification-card-front.webp"
+                alt="gossip amplification card front"
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span> </a
+            ><a
+              class="zoom fan-card fan-2"
+              href="assets/ick-cards-front-back.webp"
+              aria-label="Enlarge ick cards front back.webp"
+            >
+              <img
+                class=""
+                src="assets/ick-cards-front-back.webp"
+                alt="ick cards front back"
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span> </a
+            ><a
+              class="zoom fan-card fan-3"
+              href="assets/music-cards-final-back.webp"
+              aria-label="Enlarge Music card back with pink and green instruments and records."
+            >
+              <img
+                class=""
+                src="assets/music-cards-final-back.webp"
+                alt="Music card back with pink and green instruments and records."
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span> </a
+            ><a
+              class="zoom fan-card fan-4"
+              href="assets/music-cards-final-front.webp"
+              aria-label="Enlarge Music word card with give, into and you prompts."
+            >
+              <img
+                class=""
+                src="assets/music-cards-final-front.webp"
+                alt="Music word card with give, into and you prompts."
+                loading="lazy"
+                decoding="async"
+              /><span class="zoom-plus" aria-hidden="true">+</span>
+            </a>
+          </div>
+          <p class="center">
+            Prompt and amplification cards for the Gossip Room, Ick cards, and
+            music cards.
+          </p>
+          <div class="rulebook-row">
+            <div>
+              <h3>The rulebook</h3>
+              <p>
+                The official rulebook brings the game overview, scoring and
+                colour-coded room rules together. Layout by
+                <a href="members/thabi.html">Nthabiseng Matsaseng</a>.
+              </p>
+              <img
+                class="small-dice"
+                src="assets/dice.png"
+                alt="dice"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="covers">
+              <a
+                class="zoom"
+                href="assets/rulebook-final-front.webp"
+                aria-label="Enlarge Official Uni-verse rulebook front cover with illustrated campus buildings."
+              >
+                <img
+                  class=""
+                  src="assets/rulebook-final-front.webp"
+                  alt="Official Uni-verse rulebook front cover with illustrated campus buildings."
+                  loading="lazy"
+                  decoding="async"
+                /><span class="zoom-plus" aria-hidden="true">+</span> </a
+              ><a
+                class="zoom"
+                href="assets/rulebook-final-back.webp"
+                aria-label="Enlarge Official Uni-verse rulebook back cover with a comic title burst above campus buildings."
+              >
+                <img
+                  class=""
+                  src="assets/rulebook-final-back.webp"
+                  alt="Official Uni-verse rulebook back cover with a comic title burst above campus buildings."
+                  loading="lazy"
+                  decoding="async"
+                /><span class="zoom-plus" aria-hidden="true">+</span>
+              </a>
+            </div>
+          </div>
+          <details class="rulebook-pages">
+            <summary>Read the full rulebook</summary>
+            <p>Select a page to enlarge it.</p>
+            <div class="rulebook-grid">
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-overview.webp"
+                  aria-label="Enlarge Rulebook overview and game components."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-overview.webp"
+                    alt="Rulebook overview and game components."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Game overview</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-general.webp"
+                  aria-label="Enlarge General rules with player count, turn order and grade allocations."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-general.webp"
+                    alt="General rules with player count, turn order and grade allocations."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>General rules</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-ick.webp"
+                  aria-label="Enlarge Illustrated Ick Room rules."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-ick.webp"
+                    alt="Illustrated Ick Room rules."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Ick Room</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-gossip.webp"
+                  aria-label="Enlarge Illustrated Gossip Room rules."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-gossip.webp"
+                    alt="Illustrated Gossip Room rules."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Gossip Room</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-music.webp"
+                  aria-label="Enlarge Illustrated Music Room rules."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-music.webp"
+                    alt="Illustrated Music Room rules."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Music Room</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-gym.webp"
+                  aria-label="Enlarge Gym Room rules for building muscle."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-gym.webp"
+                    alt="Gym Room rules for building muscle."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Gym: building muscle</figcaption>
+              </figure>
+              <figure>
+                <a
+                  class="zoom"
+                  href="assets/rulebook-gym-balancing.webp"
+                  aria-label="Enlarge Gym Room rules for balancing weights and winning."
+                >
+                  <img
+                    class=""
+                    src="assets/rulebook-gym-balancing.webp"
+                    alt="Gym Room rules for balancing weights and winning."
+                    loading="lazy"
+                    decoding="async"
+                  /><span class="zoom-plus" aria-hidden="true">+</span>
+                </a>
+                <figcaption>Gym: balancing weights</figcaption>
+              </figure>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section id="crew" class="crew band">
+        <div class="container">
+          <h2>The crew</h2>
+          <p class="lead">
+            Six people built Uni-verse. Pick a card to see who made what.
+          </p>
+          <div class="crew-grid">
+            <a
+              href="members/lorcan.html"
+              class="member-card"
+              style="--m: var(--gossip); --turn: -2deg"
+            >
+              <h3>Lorcan</h3>
+              <p class="card-role">Chief Design Engineer</p>
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/room-gossip.webp"
+                  alt="The Gossip Room: a pink and plum lecture hall with player seats and a whiteboard."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>Gossip game board</li>
+                <li>Gossip playing cards</li>
+                <li>Printing and 3D printing</li>
+                <li>This website and the name Uni-verse</li>
+              </ul>
+              <span class="bubble card-cta">See Lorcan’s work</span>
+            </a>
+
+            <a
+              href="members/alyssa.html"
+              class="member-card"
+              style="--m: var(--ick); --turn: 1.5deg"
+            >
+              <h3>Alyssa</h3>
+
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/packaging-campus-building.webp"
+                  alt="Packaging illustration of a curved university building under a bright comic-style sky."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>The final board, designed and printed</li>
+                <li>Board game illustration</li>
+                <li>Packaging illustrations</li>
+              </ul>
+              <span class="bubble card-cta">See Alyssa’s work</span>
+            </a>
+
+            <a
+              href="members/gabby.html"
+              class="member-card"
+              style="--m: var(--music); --turn: -1deg"
+            >
+              <h3>Gabi</h3>
+              <p class="card-role">Administrative Manager</p>
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/music-board-final.webp"
+                  alt="Music Room board with a curved numbered track and pink card area."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>Team organisation and meeting notes</li>
+                <li>Task coordination</li>
+                <li>Music Room board and word cards</li>
+              </ul>
+              <span class="bubble card-cta">See Gabi’s work</span>
+            </a>
+
+            <a
+              href="members/amy.html"
+              class="member-card"
+              style="--m: var(--gym); --turn: 2deg"
+            >
+              <h3>Amy</h3>
+              <p class="card-role">Fitness Program Designer</p>
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/room-gym.webp"
+                  alt="The Gym: a navy track with hand-lettered fitness challenge tiles."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>Gym game and Fitness Journey cards</li>
+                <li>Gym Bro model design</li>
+                <li>Clay weights, balancing boards and painting</li>
+              </ul>
+              <span class="bubble card-cta">See Amy’s work</span>
+            </a>
+
+            <a
+              href="members/thabi.html"
+              class="member-card"
+              style="--m: var(--blue); --turn: -1.5deg"
+            >
+              <h3>Nthabiseng</h3>
+              <p class="card-role">Game Master</p>
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/rulebook-final-front.webp"
+                  alt="Official Uni-verse rulebook front cover with illustrated campus buildings."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>Official rulebook and report cards</li>
+                <li>Portfolio and game rules</li>
+                <li>Packaging copy</li>
+              </ul>
+              <span class="bubble card-cta">See Nthabiseng’s work</span>
+            </a>
+
+            <a
+              href="members/bomi.html"
+              class="member-card"
+              style="--m: var(--orange); --turn: 1deg"
+            >
+              <h3>Bomi</h3>
+              <p class="card-role">Creative Developer</p>
+              <div class="card-art">
+                <img
+                  class=""
+                  src="assets/ick-board-cutout.webp"
+                  alt="ick board cutout"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <ul>
+                <li>Ick Board and card layout</li>
+                <li>Game rules and scoring</li>
+                <li>Portfolio organisation and Gym Bro painting</li>
+              </ul>
+              <span class="bubble card-cta">See Bomi’s work</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="dots-light">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-logo" href="index.html">Uni-verse</a>
+          <p>Campus chaos. Designed to play.</p>
+        </div>
+        <div>
+          <h3>The crew</h3>
+          <a href="members/lorcan.html">Lorcan Viljoen</a
+          ><a href="members/alyssa.html">Alyssa Ferreirinha</a
+          ><a href="members/gabby.html">Gabi Carstens</a
+          ><a href="members/amy.html">Amy Swart</a
+          ><a href="members/thabi.html">Nthabiseng Matsaseng</a
+          ><a href="members/bomi.html">Bomi Rangana</a>
+        </div>
+        <small
+          >Artwork by the Uni-verse team. Board, cards and packaging shown are
+          the team’s own designs.</small
+        >
+      </div>
+    </footer>
+  </body>
+</html>
