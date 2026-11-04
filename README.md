@@ -2,7 +2,7 @@
 
 Uni-verse is a noncommercial university group project: a physical campus-themed board game, presented through a static website.
 
-**Live site:** https://lorcanviljoen.github.io/uni-verse-site/
+**Live site:** https://lorcanviljoen.github.io/LorcanViljoen/
 
 The site includes the game overview, artwork, rules, and team contributions.
 
@@ -13,3 +13,7 @@ Open `index.html` in a browser. It's plain HTML, CSS, and assets, so there's not
 ## Edit
 
 Update content in `index.html`, `members/*.html`, and `style.css`.
+
+## Deploy
+
+Push changes to main. The Deploy website workflow publishes the site automatically through GitHub Pages. Deployments run one at a time; check the Actions tab for the result. Pages source must remain GitHub Actions.
